@@ -14,15 +14,23 @@ book:
     - summary.qmd
     - references.qmd
 
+crossref:
+  tbl-title: Таблиця
+  fig-title: Рисунок
+
 bibliography: references.bib
+
+toc-title: "Зміст на сторінці"
 
 format:
   html:
     theme:
       - darkly
       - brand
+
   pdf:
     documentclass: scrreprt
-
-
+    mainfont: Arial
+    sansfont: Arial
+    monofont: Consolas
 

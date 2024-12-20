@@ -1,3 +1,11 @@
 # Передмова {.unnumbered}
 
 Чому психологам потрібен R?
+
+```{r}
+#| eval: false
+
+summary(cars)
+
+```
+

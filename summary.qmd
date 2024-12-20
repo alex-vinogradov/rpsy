@@ -1,7 +1,5 @@
-# Summary
+---
+title: Заключна частина
+---
 
-In summary, this book has no content whatsoever.
-
-```{r}
-1 + 1
-```
+Основні висновки
