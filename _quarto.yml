@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 lang: uk-UA
 
@@ -18,7 +19,7 @@ bibliography: references.bib
 format:
   html:
     theme:
-      - cosmo
+      - darkly
       - brand
   pdf:
     documentclass: scrreprt
