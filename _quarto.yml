@@ -5,7 +5,7 @@ project:
 lang: uk-UA
 
 book:
-  title: "R для психологів"
+  title: "Основи R для психологів"
   author: "Олександр Виноградов"
   date: "12/20/2024"
   chapters:
@@ -15,17 +15,19 @@ book:
     - references.qmd
 
 crossref:
-  tbl-title: Таблиця
-  fig-title: Рисунок
+  tbl-title: "Таблиця"
+  fig-title: "Рисунок"
 
 bibliography: references.bib
 
-toc-title: "Зміст на сторінці"
+toc-title: "на сторінці"
+author-title: "автор"
+published-title: "опубілковано"
 
 format:
   html:
     theme:
-      - darkly
+      - united
       - brand
 
   pdf:
@@ -34,3 +36,5 @@ format:
     sansfont: Arial
     monofont: Consolas
 
+title-block-banner: true
+title-block-banner-color: "#FFFFC0"
